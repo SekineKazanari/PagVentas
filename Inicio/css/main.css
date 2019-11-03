@@ -204,6 +204,12 @@ iframe {
   display: flex;
 }
 
+.separador {
+  width: 100%
+  height: 10vh;
+  color: #FEFEFE;
+}
+
 /*------------------------------ LOGIN ------------------------------------*/
 .limiter {
   width: 100%;
