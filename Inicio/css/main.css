@@ -25,6 +25,10 @@
   height: 25%;
 }
 
+.menu {
+  margin: 0 50px;
+}
+
 /* footer */
 .footer{
   background-color: #00AAC8;
@@ -33,6 +37,29 @@
   padding: 20px 0;
 }
 
+/* body */
+
+.inicio ul{
+  list-style: none;
+  font-size: 18px;
+}
+
+.inicio ul li{
+  display: inline-block;
+  margin-left: 60px;
+  font: 90% sans-serif;
+}
+
+.inicio ul li:not(first-child){
+  margin-left: 25px;
+}
+
+.inicio {
+  width: 60%;
+  position: relative;
+  bottom: 55%;
+  left: 35%;
+}
 /*------------------------------ ESTILOS ------------------------------------*/
 
 * {
@@ -166,11 +193,11 @@ iframe {
 
 /* Imagenes */
 .noticia{
-  height: 50vh;
+  height: 50%;
 }
 .not{
   width: 60%;
-  height: 40vh;
+  height: 40%;
 }
 
 .row{
@@ -224,13 +251,6 @@ iframe {
   text-align: left;
   position: relative;
   bottom: 60px;
-}
-
-.inicio {
-  width: 20%;
-  position: relative;
-  bottom: 45%;
-  left: 80%;
 }
 
 
